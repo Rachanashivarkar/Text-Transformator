@@ -104,7 +104,7 @@
                     resultElement.innerText = `Total characters: ${inputVal.length}`;
                     break;
                 case 'wordcount':
-                    const wordCount = inputVal.trim().split(/\s+/).length;
+                    const wordCount = inputVal.trim().split(" ").length;
                     resultElement.innerText = `Total word count: ${wordCount}`;
                     break;
                 default:
